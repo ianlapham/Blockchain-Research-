@@ -1,0 +1,58 @@
+The protocol for Decentralized Financial Derivatives. 
+
+-supports margin trading and options
+-actually decentralzied 
+-uses 0x and ethereum as the base tech
+
+White Paper Overview 
+
+-decentralzied derivative protocol
+  -derivatives are just agreements between two parties - options, futures, etc
+
+Abstract
+   We present a set of protocols that allow several types of financial derivatives to be
+  created, issued, and traded for any pair of underlying ERC20 tokens. Our approach uses
+  off-chain order books with on-chain settlement to allow creation of efficient markets. All
+  described protocols are fair and trustless, creating truly open markets that are not
+  governed by a central authority. The protocols are extensible by anyone, requiring no
+  special permissions to be used with other smart contracts.
+  
+Into 
+  -DyDx helps create new assets that get value from underlying blockchain assets
+  -Adavantages: no regulated clearing house, global equal access, full control of funds
+  -make orders off chain - make settlements on chaiin 
+
+Margin Trading 
+  -logic contained in Ethereum smart contracts
+  -two sets of instructions - one for lending one for buying 
+  -uses a wrapper class to allow users to use any decentralized exchange on top of protocol 
+  -users can easily open and close positions which happen using smart contracts 
+  -A repuitation system is needed to rank lenders on chances they close prematurely 
+ 
+ Options
+  -supports standard call and pull options 
+  -one ethereum SC for each type of option
+  -can make these options on any ERC-20 token 
+  
+Governance
+  -goverance held in mutlisig wallet held by individuals 
+  -considering a DOA for goverance
+
+● dYdX
+    ○ Decentralized derivatives protocol
+    ○ Built on Ethereum and 0x
+    ○ Open and free to use
+    ○ Efficient markets are enabled using off-chain 0x orders and economic incentives for price
+    discovery
+    ○ Modular, extensible smart contracts allow continuous opt-in upgrades
+● Margin Trading
+    ○ Can be used to profit on downward price movements, or increase leverage
+    ○ Providing low risk fully collateralized loans for margin trades can provide interest fee on
+    long positions
+    ○ Anyone can margin trade or lend any ERC20 token
+● Options
+    ○ Can be used to reduce risk or speculate
+    ○ Anyone can create, write, buy, or trade any option on any ERC20 token
+    ○ Each option is represented by its own ERC20 token to allow easy trading
+
+
