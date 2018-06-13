@@ -1,7 +1,7 @@
 # Blockchain-Research
 A collection of notes on all things Blockchain. Intended for learning and reference. 
 
-#### DyDx
+### DyDx
   - DyDx helps create new assets that get value from underlying blockchain assets
   - For ERC 20 tokens : supports margin trading and options markets
   - Adavantages: no regulated clearing house, global equal access, full control of funds
@@ -20,5 +20,7 @@ A collection of notes on all things Blockchain. Intended for learning and refere
    - allows real world objects to be tokenized including hedge funds, teams, highways, etc..
    - built on TokenD and Stellar blockchain 
    - uses a Liquidf Democracy Voting Module for governance 
+
+### 
   
   
